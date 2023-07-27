@@ -1,0 +1,56 @@
+body h1
+{
+    text-align: center;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    direction: ltr;
+}
+#boxes
+{
+    margin-top: px;
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+body h2
+{
+    direction: rtl;
+    color: rgb(10, 1, 17);
+}
+body h3
+{
+    direction: rtl;
+    color: brown;
+}
+body h2
+{
+    direction: rtl;
+}
+body h4
+{
+    direction: rtl;
+}
+#boxes
+{
+    margin-top: px;
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+body h3
+{
+    direction: rtl;
+    color: black;
+}
+body h2{
+    text-align: right;
+}

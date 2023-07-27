@@ -1,0 +1,45 @@
+body h1{
+    text-align: center;
+    font-size: 3rem;
+}
+html{
+    direction: rtl;
+    padding: 5px;
+    margin: 10px;
+    font-family: Tahoma;
+    font-size: 10px;
+}
+body a{
+    color: rgb(255, 255, 255);
+    font-size:  2rem;
+    text-decoration: none;
+    padding: 30px;
+}
+body h2{
+    font-size: 2rem;
+    color: rgb(68, 18, 18);
+    text-align: right;
+    padding-bottom: 3px;
+    margin-top: -2px;
+    padding: 15px;
+}
+body h2:hover{
+    font-size: 2rem;
+    color: rgb(107, 100, 100);
+    text-align: right;
+    padding-bottom: 3px;
+    margin-top: -2px;
+    padding: 15px;
+}
+.ra{
+    background-color: blueviolet;
+    border: 2px solid;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 2px;
+}
+.ra:hover{
+    background-color: rgb(39, 3, 73);
+    border: 2px solid;
+    border-radius: 2px;
+}

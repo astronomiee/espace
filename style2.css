@@ -1,0 +1,83 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    font: 1.03em "Open Sans", sans-serif ;
+}
+body{
+    background-color: #eee;
+}
+/* ----------------------------------------------------------------------------------- */
+.menu{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+}
+.menu #logo{
+    float: right;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 3em;
+    line-height: 20px;
+}
+.menu > ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+.menu > ul > li {
+    float: right;
+}
+.menu-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: blue;
+    text-decoration: none;
+}
+.menu-item:hover{
+    background-color: #ff0055;
+}
+/* --------------------------------------- STYLING SUB ------------------------------------------- */
+.sub-content {
+    position: absolute;
+    top: 60px;
+    overflow: hidden;
+    background-color: #333;
+    max-height: 0;
+}
+.sub-content a {
+    color: #eee;
+    text-decoration: none;
+}
+.sub-drop {
+    padding: 0;
+}
+.sub-drop ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.sub-drop ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.sub-drop ul li:hover {
+    background-color: #ff0055;
+}
+/* --------------------------------------- Controling ------------------------------------------- */
+.menu-item:focus {
+    background-color: #ff0055;
+}
+.menu ul li:hover .sub-content{
+    max-height:400px;
+    transition: max-height 1s ease-in;
+    -webkit-transition:max-height 1s ease-in;
+    -moz-transition: max-height 1s ease-in;;
+}
+#rmenu {
+    float: right;
+}

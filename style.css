@@ -1,0 +1,247 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(229, 224, 236);
+    direction: rtl;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    background: #474c4e;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #333 5px solid;
+}
+
+header a
+{
+    color: #3c3cf5;
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand
+{
+    float: right;
+}
+header #brand h1
+{
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+header nav
+{
+    float: left;
+    margin-top: 10px;
+}
+header .current a
+{
+    color: #32a0c2;
+    font-weight: bold;
+}
+header a:hover
+{
+    color: #cccccc;
+    font-weight: bold;
+}
+#chowcase
+{
+    min-height: 400px;
+    background:url(../test/espace/icon.png) no-repeat center;
+    background-size: cover;
+}
+#newsletter
+{
+    padding: 15px;
+    color: #ffffff;
+    background: #353637;
+}
+#newsletter h1
+{
+    float: right;
+}
+#newsletter form
+{
+    float: left;
+    margin-top: 15px;
+}
+#newsletter input[type="email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button
+{
+    height: 38px;
+    background: #cccccc;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #353637;
+}
+#boxes
+{
+    margin-top: px;
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #32a0c2;
+    text-align: center;
+    font-weight: bol;
+    font-size: 20px;
+}
+@media(max-width:768px)
+{
+    header #brnd,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    #newsletter .button
+    {
+        display: block;
+        width: 100%;
+
+    }
+    #newsletter form input[type="email"]
+    {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+body h3
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(229, 224, 236);
+    direction: rtl;
+}
+html #boxes
+{
+    background-color: rgb(229, 224, 236);
+}
+html h1{
+    text-align: center;
+}
+.menu{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+}
+.menu #logo{
+    float: right;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 3em;
+    line-height: 20px;
+}
+.menu > ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+.menu > ul > li {
+    float: right;
+}
+.menu-item {
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 35px;
+    color: blue;
+    text-decoration: none;
+}
+.menu-item:hover{
+    background-color: #ff0055;
+}
+.sub-content {
+    position: absolute;
+    padding-top: 6px;
+    overflow: hidden;
+    background-color: #333;
+    max-height: 0;
+    height: 110px;
+}
+.sub-content a {
+    color: #eee;
+    text-decoration: none;
+}
+.sub-drop {
+    padding: 0;
+}
+.sub-drop ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.sub-drop ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.sub-drop ul li:hover {
+    background-color: #ff0055;
+}
+/* --------------------------------------- Controling ------------------------------------------- */
+.menu-item:focus {
+    background-color: #ff0055;
+}
+.menu ul li:hover .sub-content{
+    max-height:400px;
+    transition: max-height 2s ease-in;
+    -webkit-transition:max-height 2s ease-in;
+    -moz-transition: max-height 2s ease-in;;
+}
+#rmenu {
+    float: right;
+}
+body h3{
+    margin: 20px;
+    padding: 20px;
+}
+body h2{
+     border: 3px solid;
+     margin: 20px;
+     padding: 20px;
+     color: #474c4e;
+     background-color: #32a0c2;
+ }
